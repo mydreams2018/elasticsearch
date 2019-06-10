@@ -261,6 +261,14 @@ public class MultiSearch {
             }
         }
     }
+
+
+ /*   QueryBuilders.termsQuery("tags",      // field
+            "blue", "pill")                 // values
+            .minimumMatch(1);               // How many terms must match
+ */
+
+
     @Test
     public void boolQuery(){
         Settings settings = Settings.builder().put("cluster.name", "Kun").build();
